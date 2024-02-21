@@ -1,14 +1,15 @@
-﻿
-    
-using ConsoleApp4;
+﻿using ConsoleApp4;
 
-Punkt punkt1 = new Punkt(5, 7);//Tworzenie nowego obiektu na podstawie klasy Punkt
-Punkt punkt2 = new Punkt(1, 2);
-Punkt punkt3 = new Punkt(1, 1);
-Punkt punkt4 = new Punkt(4, 9);
+Osoba osoba1 = new Osoba("Adam", "Nowak",500_500_500);//Deklaracja zmiennej obiektowej typu Osoba. I utworzenie w zmiennej nowego obiektu.
+Osoba osoba2 = new Osoba("Monika", "Nowak",500_500_500);
+Osoba osoba3 = new Osoba("Maria", "Kowal",500_500_500);
+Osoba osoba4 = new Osoba("Anna", "Kowalska",500_500_500);
+
+osoba1.pobierzInformacje();
+osoba2.pobierzInformacje();
+osoba3.pobierzInformacje();
+osoba4.pobierzInformacje();
+
+int liczba = 5;//Deklaracja zmiennej i typu int, oraz incjalizacja (przypisanie wartości 5)
 
 
-Console.WriteLine($"x= {punkt1.getX()} y= {punkt1.y}");
-Console.WriteLine($"x= {punkt2.getX()} y= {punkt2.y}");
-Console.WriteLine($"x= {punkt3.getX()} y= {punkt3.y}");
-Console.WriteLine($"x= {punkt4.getX()} y= {punkt4.y}");
