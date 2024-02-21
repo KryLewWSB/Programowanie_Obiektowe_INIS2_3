@@ -1,3 +1,8 @@
 ﻿
+    
+using ConsoleApp4;
 
-Console.WriteLine("Hello, World!");
+Punkt punkt1 = new Punkt(5, 7);//Tworzymy nowy obiekt (instancja klasy)
+
+
+Console.WriteLine($"x= {punkt1.x} y= {punkt1.y}");
