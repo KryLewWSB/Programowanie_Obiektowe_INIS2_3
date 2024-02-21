@@ -2,12 +2,12 @@ namespace ConsoleApp4;
 
 public class Punkt
 {
-    public int x; //właściwość (pole)
-    public int y; //właściwość (pole)
+    public int x; 
+    public int y; 
 
-    public Punkt(int Wejsciowyx, int Wejsciowyy)
+    public Punkt(int x, int y)
     {
-        this.x = Wejsciowyx;
-        this.y = Wejsciowyy;
+        this.x = x;
+        this.y = y;
     }
 }
